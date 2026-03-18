@@ -29,7 +29,16 @@
         footer { background: black; text-align: center; padding: 20px; }
     </style>
 </head>
-
+<script id="toggle-script">
+function toggleTexto() {
+    var texto = document.getElementById("texto-extra");
+    if (texto.style.display === "none") {
+        texto.style.display = "block";
+    } else {
+        texto.style.display = "none";
+    }
+}
+</script>
 <body>
 
 <header>
